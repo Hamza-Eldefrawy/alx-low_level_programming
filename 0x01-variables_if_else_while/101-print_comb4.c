@@ -10,33 +10,33 @@
 
 int main(void)
 {
-	int who = 0, digit, digit2;
+	int digit1 = 0, digit2, digit3;
 
-	while (who <= 9)
+	while (digit <= 9)
 	{
-		digit = 0;
-		while (digit <= 9)
+		digit2 = 0;
+		while (digit2 <= 9)
 		{
-			digit2 = 0;
-			while (digit2 <= 9)
+			digit3 = 0;
+			while (digit3 <= 9)
 			{
-				if (who != digit && who < digit && digit != digit2 && digti < digit2)
+				if (digit1 != digit2 && digit1 < digit2 && digit2 != digit3 && digti2 < digit3)
 				{
-					putchar(who + 48);
-					putchar(digit + 48);
+					putchar(digit1 + 48);
 					putchar(digit2 + 48);
+					putchar(digit3 + 48);
 
-					if (who + digit + digit2 != 24)
+					if (digit1 + digit2 + digit3 != 24)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				digit2++
+				digit3++
 			}
-			digit++;
+			digit2++;
 		}
-		who++;
+		digit1++;
 	}
 	putchar('\n');
 
