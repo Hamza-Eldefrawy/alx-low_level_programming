@@ -11,7 +11,7 @@
 int main(void)
 {
 	char who = 'a', WHO = 'A';
-	
+
 	while (who <= 'z')
 	{
 		putchar(who);
@@ -19,10 +19,10 @@ int main(void)
 	}
 
 	while (WHO <= 'Z')
-        {
-                putchar(WHO);
-                WHO++;
-        }
+	{
+		putchar(WHO);
+		WHO++;
+	}
 	putchar('\n');
 
 	return (0);
