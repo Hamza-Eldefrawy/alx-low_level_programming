@@ -10,15 +10,15 @@
 
 int main(void)
 {
-	char who = 48;
+	int who = 48;
 
 	while (who <= 102)
-	{
-		if (who <= 102)
-			who += 39;
-		putchar(who);
-		who++;
-	}
+{
+	if (who == 58)
+		who += 39;
+	putchar(who);
+	who++;
+}
 	putchar('\n');
 
 	return (0);
