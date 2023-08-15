@@ -17,6 +17,7 @@ int main(void)
 		digit = 0;
 		while (digit <= 9)
 		{
+			digit2 =0;
 			while (digit2 <= 9)
 			{
 				if (who != digit && who < digit && digit != digit2 && digti < digit2)
