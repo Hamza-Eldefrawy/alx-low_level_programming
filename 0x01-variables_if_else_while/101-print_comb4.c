@@ -7,38 +7,30 @@
  *
  * Return: Always 0 (Success)
 */
-
 int main(void)
 {
-	int digit1 = 0, digit2, digit3;
+	int n, m, l;
 
-	while (digit <= 9)
+	for (n = 48; n < 58; n++)
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
+		for (m = 49; m < 58; m++)
 		{
-			digit3 = 0;
-			while (digit3 <= 9)
+			for (l = 50; l < 58; l++)
 			{
-				if (digit1 != digit2 && digit1 < digit2 && digit2 != digit3 && digti2 < digit3)
+				if (l > m && m > n)
 				{
-					putchar(digit1 + 48);
-					putchar(digit2 + 48);
-					putchar(digit3 + 48);
-
-					if (digit1 + digit2 + digit3 != 24)
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				digit3++
 			}
-			digit2++;
 		}
-		digit1++;
 	}
 	putchar('\n');
-
 	return (0);
 }
