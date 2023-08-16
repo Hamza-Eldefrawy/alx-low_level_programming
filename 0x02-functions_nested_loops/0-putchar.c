@@ -1,16 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Description: A C program that prinst with put function
+ * Descrition: prints _putchar using putchar prototype
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	printf("_putchar");
+	char vm[] = "_putchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ch++)
+		_putchar(vm[ch]);
+	_putchar('\n');
 
 	return (0);
 }
