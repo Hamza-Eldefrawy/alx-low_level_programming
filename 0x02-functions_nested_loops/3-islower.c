@@ -2,7 +2,7 @@
 
 /**
  * _islower - function to check if
- * 		character is lowercase
+ *		character is lowercase
  *
  * @c: checks input of function
  *
@@ -12,7 +12,7 @@
 
 int _islower(int c)
 {
-	if (c >=97 && c <= 122)
+	if (c >= 97 && c <= 122)
 		return (1);
 	return (0);
 }
