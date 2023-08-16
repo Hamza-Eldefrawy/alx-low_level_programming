@@ -3,14 +3,14 @@
 /**
  * _abs - function that computes the absolute value of an integer
  *
- * @c: input of the function
+ * @n: input of the function
  *
  * Return: always 0
 */
 
-int _abs(int c)
+int _abs(int n)
 {
-	if (c < 0)
-		c = (-1) * c;
-	return (c);
+	if (n < 0)
+		n = (-1) * n;
+	return (n);
 }
