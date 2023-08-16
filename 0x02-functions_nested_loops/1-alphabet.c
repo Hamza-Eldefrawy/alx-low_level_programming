@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - utilizes on the _putchar function to print the alphabet a - z
  *
  * Descrition: prints _putchar using putchar prototype
  *
@@ -10,11 +10,10 @@
 
 void print_alphabet(void);
 {
-	char vm[] = "abcdefghijklmnopqrstuvwxyz";
 	int ch;
 
-	for (ch = 0; ch < 26; ch++)
-		_putchar(vm[ch]);
+	for (ch = 'a'; ch < 'z'; ch++)
+		_putchar(ch);
 	_putchar('\n');
 
 	return (0);
